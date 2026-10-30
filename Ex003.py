@@ -3,11 +3,8 @@ n2=int(input("Escolha outro número: "))
 
 s=(n1 + n2)
 
-print("A soma vale {}".format(s))
-
-#OU
-
 print("A soma etre {} e {} vale {}".format(n1,n2,s))
+print("O seu tipo primitivo é ", type(s))
 
 #print("A soma entre {} e {}".format(n1, n2),"é igual a {}".format(s))
 
