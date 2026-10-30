@@ -1,3 +1,5 @@
-print=input("Digite algo: ")
+n=input("Digite algo: ")
 
-print("O tipo primitivo desse valor é", type(print))
+print(n.isalpha()) # Verifica se é alfabético
+print(n.isnumeric()) # Verifica se é numérico
+print(n.isalnum()) # Verifica se é alfanumérico
